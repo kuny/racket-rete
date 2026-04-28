@@ -6,10 +6,10 @@
 
 ;fact
 (define wme (box
-                 (list
-                  '(Person (name taro) (age 30))
-                  '(Order (name taro) (item book))
-                  '(Person (name hanako) (age 10)))))
+              (list
+                '(Person (name taro) (age 30))
+                '(Order (name taro) (item book))
+                '(Person (name hanako) (age 10)))))
 
 (define (facts)
   (unbox wme))

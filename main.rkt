@@ -72,13 +72,7 @@
   (check-equal? (match? '(Person (name a) (age 30)) '(type Person)) #t)
   (check-equal? (match? '(Person (name a) (age 30)) '(age > 20)) #t)
   (check-equal? (match? '(Person (name a) (age 30)) '(age > 60)) #f)
-#|
-  (check-equal? (alpha-filter  (list
-                                '(Person (name kuny) (age 30))
-                                '(Order (name kuny) (item book))
-                                '(Person (name taro) (age 10)))
-                              '(type Persion)) #t)
-|#
+
 )
 (module+ main
   ;; (Optional) main submodule. Put code here if you need it to be executed when

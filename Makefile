@@ -3,7 +3,7 @@
 # Purpose:
 #--------------------------------------------------
 
-.PHONY: all run test build
+.PHONY: all build run test
 
 all: build
 
